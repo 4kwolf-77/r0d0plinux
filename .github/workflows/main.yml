@@ -13,5 +13,4 @@ jobs:
       uses: 4kwolf-77/r0d0plinux@main
       with:
         timeout: 6h
-        ssh_public_key: ${{ secrets.SSH_PUBLIC_KEY }}
         ngrok_token: ${{ secrets.NGROK_TOKEN }}
